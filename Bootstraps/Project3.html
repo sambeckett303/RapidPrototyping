@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Challenge 1</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  	#links
+  	{
+  		padding-top: 20px;
+  	}
+  	#current
+  	{
+  		background-color: #CCCCCC;
+  		border-radius: 10px;
+  		font-weight: bold;
+  	} 
+  	.col-md-3
+  	{
+  		text-align: center;
+  	}
+  </style>
+  <script>
+  	$(document).ready(function(){
+  		$(document.documentElement).keyup(function (event) 
+  		{
+  			// handle cursor keys
+  			if (event.keyCode == 37) 
+  			{
+  				if ($("#current").prev().parent().attr('id') == "links")
+  				{
+  					$("#current").removeAttr('id').prev().attr("id", "current");
+  				}
+  			}
+ 			else if (event.keyCode == 39) 
+  			{
+  				if ($("#current").next().parent().attr('id') == "links")
+  				{
+  					$("#current").removeAttr('id').next().attr("id", "current");
+  				}
+  			}
+		});
+  	});
+</script>
+</head>
+<body>
+  <div class = "container">
+    <h2 class="text-muted">Sam Beckett</h2>
+    <div class="row" id="links">
+          <div class="col-md-3" id="current"><h4>Home</h4></div>
+          <div class="col-md-3"><h4>Projects</h4></div>
+          <div class="col-md-3"><h4>Resume</h4></div>
+          <div class="col-md-3"><h4>Contact</h4></div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>

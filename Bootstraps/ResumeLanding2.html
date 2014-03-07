@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Resume Landing</title>
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="js/bootstrap.js" rel="stylesheet">
+    <style>
+    .carousel img {
+        width: auto;
+        height: auto;
+      }
+      .carousel {
+      margin-bottom: 60px;
+    }
+    .carousel .item {
+        height: 360px;
+      }
+      .carousel img {
+        height: 200px;
+      }
+
+    </style>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+    <div class="container">
+
+      <div class="masthead">
+        <h1 class="text-muted">Sam Beckett</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <br>
+            <br>
+            <br>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Projects</h3>
+              </div>
+              <div class="panel-body">
+                <p> View all my school and work Computer Science related project work 
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Here</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div align="center">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <h4 class="modal-title" id="myModalLabel">Projects</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div class="panel-group" id="accordion">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                  Droplets Project
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in">
+                              <div class="panel-body">
+                                During the summer of 2013, I was given the opportunity to work as a reasearch intern at the Correll Lab located in the basement of the Engineering Center. I worked on developing the droplet simulator code, with the overall goal of using communication with range and bearing to have the droplets self assemble into the shape of a guitar.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                  Project #2
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                This is where I would put the text describing my school projects, and how they helped me progress through Computer Science as a field. 
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">
+                              <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                                  Project #3
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse">
+                              <div class="panel-body">
+                                Once I work on a 3rd project, this is where I would put information about it describing it, but I haven't really worked on that many projects just quite yet...
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+            <br>
+            <br>
+            <br>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Resume</h3>
+              </div>
+              <div class="panel-body">
+                <p> View or download a pdf of my personal resume</p>
+                <button class="btn btn-primary" data-toggle="modal" data-target="#myModal2">Here</button>
+                <!-- Modal -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <div align="center">
+                          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        </div>
+                        <h4 class="modal-title" id="myModalLabel">Resume</h4>
+                      </div>
+                      <div class="modal-body">
+                        <div align="center">
+                          <h2> Objective: </h2>
+                          <p>To obtain a part-time employment or internship working with an energetic and dynamic company that will apply my computer science knowledge, communication skills, and hardworking attitude.</p>
+                          <h2> Education: </h2>
+                          <p> <b>University of Colorado at Boulder:</b><br>
+                              Computer Science Engineering<br>
+                              Expected Graduation: June 2015<br>
+                              Present GPA: 3.56<br>
+                            <b>Conifer High School:</b><br>
+                               Class of 2011
+                          </p>
+                          <h2> Computer Skills / Course Work: </h2>
+                          <div align="left">
+                            <ul>
+                              <li>Familiar with Linux, Windows, and Mac OS</li>
+                              <li>Working knowledge of C/C++, Java, Python</li>
+                              <li>Knowledge of Data Structures, Computer Systems, Algorithms, Principles of Programming </li>
+                              <li>Currently enrolled in Operating Systems and Software Engineering Methods and Tools</li>
+                              <li>Microsoft Word, PowerPoint, Excel, Photoshop, Illustrator, Final Cut Pro, After Effects</li>
+                            </ul>
+                          </div>
+                          <h2> Work History: </h2>
+                          <p> UNIVERSITY OF COLORADO – CORRELL LAB – BOULDER, CO <br>
+                            <b>Job Title:</b> Research Intern - Programmer <br>
+                            <b>Job Duties:</b> Wrote and developed simulator code written in C++ for the “Droplets” project, where the droplets used communication and range and bearing to self assemble into the shape of a guitar.<br>
+                            <br>
+                            APLENCREST LANDSCAPING SPECIALTIES – EVERGREEN, CO
+                            <br>
+                            <b>Job Title:</b> Laborer<br>
+                            <b>Job Duties:</b> Worked full-time for 3 summers doing landscape work on a crew of 3-6 people and followed specific instructions and measurements for projects that utilized creativity.<br>
+                          </p>
+                          <h2> Activities / Honors: </h2>
+                          <div align="left">
+                            <ul>
+                              <li>University of Colorado Cycling Team</li>
+                              <li>University of Colorado Men’s Club Soccer Team</li>
+                              <li>4 years Varsity High School soccer – Captain of team senior year</li>
+                              <li>Video editing / Video production</li>
+                              <li>Volunteer work at Evergreen Lake and Boulder Reservoir</li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Download pdf</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+          <div class="col-md-6">
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-prn2/t1/1472000_10152056707918944_1887300634_n.jpg">
+                  <div class="carousel-caption">
+                      <h3>Hi! Welcome to my page!</h3>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="http://www.robaid.com/wp-content/gallery/robots3/cu-droplet-robot.jpg">
+                  <div class="carousel-caption">
+                    <h1>Droplets Project</h1>
+                    <p>During the summer of 2013, I was a research intern for the Correll Lab writing code for the droplet simulator project, click <a href="#">here!</a></p>
+                  </div>
+                </div>
+                <div class="item">
+                  <img src="https://scontent-a-dfw.xx.fbcdn.net/hphotos-prn2/t1/1461076_10151853185398731_450432765_n.jpg">
+                  <div class="carousel-caption">
+                    <h1>I love snowboarding! </h1>
+                  </div>
+                </div>
+              </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">About Me:</h3>
+              </div>
+              <div class="panel-body">
+                <p> I'm a Junior student at University of Colorado at Boulder studying Computer Science Engineering, specializing in the Software Engineering track. I am very active, I love playing soccer, hockey, mountain biking, and <a href="#" data-toggle="tooltip" title data-original-title="Snowboarding is Great!" data-placement="right" rel="tooltip">snowboarding</a>.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <br>
+            <br>
+            <br>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Activities</h3>
+              </div>
+              <div class="panel-body">
+                <p> View all of my activities
+                <button type="button" id="example" class="btn btn-primary" data-container="body" data-toggle="popover" data-placement="left" data-content="I really like doing fun activities. My favorite activity is snowboarding, but I also like hockey, soccer, and mountain biking!">Here</button>
+              </div>
+            </div> 
+            <br>
+            <br>
+            <br>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Contact Me</h3>
+              </div>
+              <div class="panel-body">
+                <p><b>Email:</b> samuel.beckett@colorado.edu</p><br>
+                <p><b>Address:</b><br>
+                  2807 Sundown Ln #207<br>
+                  Boulder, CO 80303 <br>
+                <div class="dropdown">
+                  <div class="dropdown">
+                    <a id="drop4" role="button" data-toggle="dropdown" href="#"> Find me online! <b class="caret"></b>
+                    </a>
+                    <ul id="menu1" class="dropdown-menu" role="menu" aria-labelledby="drop4">
+                      <li role = "presentation">
+                        <a role="menuitem" tabindex="-1" href="https://www.facebook.com/I.am.SAM.the.MAN">Facebook</a>
+                        </li>
+                      <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="http://www.linkedin.com/profile/view?id=283031890&trk=nav_responsive_tab_profile_pic">LinkedIn</a>
+                      </li>
+                      <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="https://plus.google.com/u/0/113163792505635387404/posts">Google+</a>
+                      </li>
+                      <li role="presentation">
+                        <a role="menuitem" tabindex="-1" href="#">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script>
+      $(function() {
+        $('a').tooltip({placement: 'right'});
+      });
+      $(function() {
+        $('#example').popover()
+      });    
+    </script>
+  </body>
+</html>
